@@ -112,3 +112,46 @@ b, h1, h2, h3, h4, strong {
     padding: 0;
     font-weight: normal;
 }
+
+.strip-section ul li:first-child {
+    margin-left: 0;
+}
+
+.strip-section ul li {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.strip-section  li a {
+    color: #4A4A4A;
+    /*-webkit-transition: 0.3s all ease;*/
+    transition: 0.3s all ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.strip-section i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    margin: -1px 5px 0;
+}
+
+i {
+    font-style: italic;
+}
